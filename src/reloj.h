@@ -9,3 +9,4 @@ typedef struct clock_s *clock_t;
 bool getCurrentTime(clock_t, uint8_t *, int);
 clock_t clockInit(uint8_t);
 void incrementTick(uint8_t*, uint8_t);
+void setTime(clock_t, uint8_t*, int);
